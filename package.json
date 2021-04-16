@@ -1,0 +1,26 @@
+{
+  "name": "emptytypescript",
+  "description": "Empty typescript project",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "total4": "https://github.com/totaljs/framework4.git#b7586e418484e66fe4933abd9e3c8e95464edbc2"
+  },
+  "scripts": {
+    "start": "ts-node --transpile-only index.ts --release",
+    "dev": "ts-node --transpile-only index.ts"
+  },
+  "keywords": [
+    "empty",
+    "project",
+    "total.js",
+    "typescript"
+  ],
+  "author": "Jakub Urban",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "ts-node": "^9.1.1",
+    "tsc": "^1.20150623.0"
+  }
+}
