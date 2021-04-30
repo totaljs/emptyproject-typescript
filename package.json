@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "total4": "https://github.com/totaljs/framework4.git#b7586e418484e66fe4933abd9e3c8e95464edbc2"
+    "total4": "https://github.com/totaljs/framework4.git#a2e17da4a4aecbabfbea977453a151d97d3477e4"
   },
   "scripts": {
     "start": "ts-node --transpile-only index.ts --release",

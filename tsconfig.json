@@ -6,6 +6,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["total4", "@types/node"]
+    "types": ["total4", "@types/node"],
+    "noImplicitThis": false
   }
 }

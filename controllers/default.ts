@@ -1,3 +1,5 @@
 exports.install = function() {
-	ROUTE('GET /');
+	ROUTE('GET /', function() {
+		this.json('Hello, World!');
+	});
 };
